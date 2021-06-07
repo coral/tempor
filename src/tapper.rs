@@ -60,6 +60,10 @@ impl Tapper {
 
         return Some(bpm);
     }
+
+    pub fn clear(&mut self) {
+        self.taps.clear();
+    }
 }
 
 fn mean(list: &[u128]) -> f64 {

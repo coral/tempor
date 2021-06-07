@@ -3,6 +3,7 @@ name = "tempor"
 version = "0.1.0"
 authors = ["coral <jonas@jonasbengtson.se>"]
 edition = "2018"
+license = "MIT"
 keywords = ["tempo", "beat", "tap"]
 categories = ["multimedia::audio"]
 description = "Tempo related utilities for Rust"
